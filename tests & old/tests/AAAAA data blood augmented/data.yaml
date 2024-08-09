@@ -1,0 +1,12 @@
+train: /Users/guillemcobos/Documents/GitHub/colony-counting-detection-yolov8/AAAAA data blood augmented/train/images
+val: /Users/guillemcobos/Documents/GitHub/colony-counting-detection-yolov8/AAAAA data blood augmented/valid/images
+
+nc: 8
+names: ['assalmonicida', 'pddamselae', 'pdpiscicida', 'sinniae', 'tmaritimum', 'valgino', 'vangil', 'vharveyi']
+
+roboflow:
+  workspace: koa-pcc5d
+  project: colony-counting-aaaaa-blood
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/koa-pcc5d/colony-counting-aaaaa-blood/dataset/1

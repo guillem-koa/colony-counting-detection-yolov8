@@ -1,0 +1,12 @@
+train: /Users/guillemcobos/Documents/GitHub/colony-counting-detection-yolov8/MICRO COLONY COUNTING.v3i.yolov8/train/images
+val: /Users/guillemcobos/Documents/GitHub/colony-counting-detection-yolov8/MICRO COLONY COUNTING.v3i.yolov8/valid/images
+
+nc: 15
+names: ['ahydrophila', 'asalmonicida', 'bcereus', 'krosea', 'mluteus', 'paeruginosa', 'pddamselae', 'pdpiscicida', 'smarcescens', 'staphylo-', 'valgino', 'vangil', 'vfluvialis', 'vharveyi', 'vproteolyticus']
+
+roboflow:
+  workspace: koa-pcc5d
+  project: micro-colony-counting
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/koa-pcc5d/micro-colony-counting/dataset/3

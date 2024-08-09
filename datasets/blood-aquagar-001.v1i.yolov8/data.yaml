@@ -1,0 +1,13 @@
+train: /Users/guillemcobos/Documents/GitHub/colony-counting-detection-yolov8/datasets/blood-aquagar-001.v1i.yolov8/train
+val: /Users/guillemcobos/Documents/GitHub/colony-counting-detection-yolov8/datasets/blood-aquagar-001.v1i.yolov8/valid
+test: /Users/guillemcobos/Documents/GitHub/colony-counting-detection-yolov8/datasets/blood-aquagar-001.v1i.yolov8/test
+
+nc: 7
+names: ['Acinetobacter', 'Alteromonas', 'Bacillus', 'Pseudoalteromonas', 'Staphylococcus', 'Vagococcus', 'Vibrio']
+
+roboflow:
+  workspace: koa-pcc5d
+  project: blood-aquagar-001
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/koa-pcc5d/blood-aquagar-001/dataset/1

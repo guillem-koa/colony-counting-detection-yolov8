@@ -1,0 +1,13 @@
+train: /Users/guillemcobos/Documents/GitHub/colony-counting-detection-yolov8/VIBRIO on TCBS -MICRO COLONY COUNTING-.v2i.yolov8/train/images
+val: /Users/guillemcobos/Documents/GitHub/colony-counting-detection-yolov8/VIBRIO on TCBS -MICRO COLONY COUNTING-.v2i.yolov8/valid/images
+
+
+nc: 2
+names: ['other', 'vibrio']
+
+roboflow:
+  workspace: koa-pcc5d
+  project: vibrio-on-tcbs-micro-colony-counting
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/koa-pcc5d/vibrio-on-tcbs-micro-colony-counting/dataset/2

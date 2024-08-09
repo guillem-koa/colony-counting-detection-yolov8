@@ -1,0 +1,12 @@
+train: /Users/guillemcobos/Documents/GitHub/colony-counting-detection-yolov8/AAAAA data tcbs augmented/train/images
+val: /Users/guillemcobos/Documents/GitHub/colony-counting-detection-yolov8/AAAAA data tcbs augmented/valid/images
+
+nc: 5
+names: ['pddamselae', 'sinniae', 'valgino', 'vangil', 'vharveyi']
+
+roboflow:
+  workspace: koa-pcc5d
+  project: colony-counting-aaaaa-tcbs
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/koa-pcc5d/colony-counting-aaaaa-tcbs/dataset/1

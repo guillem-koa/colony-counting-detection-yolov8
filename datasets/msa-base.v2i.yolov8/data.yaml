@@ -1,0 +1,12 @@
+train: /Users/guillemcobos/Documents/GitHub/colony-counting-detection-yolov8/datasets/msa-base.v2i.yolov8/train/images
+val: /Users/guillemcobos/Documents/GitHub/colony-counting-detection-yolov8/datasets/msa-base.v2i.yolov8/valid/images
+
+nc: 3
+names: ['Bacillus', 'StaphyloNegative', 'StaphyloPositive']
+
+roboflow:
+  workspace: koa-pcc5d
+  project: msa-base
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/koa-pcc5d/msa-base/dataset/2
